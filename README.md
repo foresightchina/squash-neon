@@ -14,7 +14,7 @@
 |---|---|---|
 | 网页版 | [点这里直接玩](https://squash-neon.app.workbuddy.host/?sharecode=65N5MVPOMU) | 无需安装，手机电脑都行 |
 | 安卓版 | [下载 APK](../../releases/latest/download/SquashNeon.apk) | 90 KB，Android 7.0+，横屏 |
-| Windows 版 | [下载 EXE](../../releases/latest/download/SquashNeon.exe) | 12 MB，Win10/11，免安装 |
+| Windows 版 | [下载 EXE](../../releases/latest/download/SquashNeon.exe) | 228 KB，Win10/11，免安装 |
 
 安卓安装时系统会提示「未知来源应用」，允许即可（个人发布 App 的正常提示）。
 Windows 下载后直接双击运行；若提示「未知的发布者」，选择「仍要运行」。
