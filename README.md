@@ -24,7 +24,7 @@ Windows 下载后直接双击运行；若提示「未知的发布者」，选择
 - 纯单文件 HTML5 Canvas，无第三方游戏引擎
 - 云端排行榜基于 PostgREST 语义的数据库调用，已收敛为 cloudApi 适配层（8 个原子操作），方便迁移后端
 - 安卓版：Java 壳（内嵌固定端口本地 HTTP 服务 + WebView），手工最小构建链（aapt2 / d8 / zipalign / apksigner）
-- Windows 版：pywebview + WebView2 壳，PyInstaller 打包
+- Windows 版：纯 C / Win32 原生壳（TinyCC 编译，内嵌本地 HTTP 服务），调用系统自带 Microsoft Edge 的 --app 窗口，无运行时依赖，约 228 KB
 - 桌面与安卓壳本地存储端口固定，保证 localStorage 身份持久
 
 ## 版本
